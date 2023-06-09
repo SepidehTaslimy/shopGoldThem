@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <!-- ==meata-tags== -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ==fonts== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- ==style-links== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- ==header== -->
+  <header id="header">
+    <div class="header-top container d-flex align-items-center justify-content-between">
+      <div class="header-top-shopping-items">
+        <ul class="cart d-flex">
+          <li class="cart-selected">
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <li class="cart-favorit">
+            <a href=""><i class="fa-solid fa-heart"></i></a>
+          </li>
+          <li class="cart-compare">
+            <a href=""><i class="fa-solid fa-down-left-and-up-right-to-center"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="header-top-left-side d-flex">
+        <div class="header-top-search d-flex">
+          <div class="search-box">
+
+
+            <div class="container">
+              <input type="text" placeholder="Search...">
+              <div class="search">
+                <a><i class="fa fa-search"></i></a>
+              </div>
+            </div>
+
+            <!-- <div class="search-btn">
+                <i class="fa fa-search"></i>
+              </div>
+              <input
+                class="form-control my-0 py-1"
+                type="text"
+                placeholder="Search..."
+                aria-label="Search"
+              /> -->
+
+          </div>
+        </div>
+
+
+        <div class="header-top-lang"><a><i class="fa-solid fa-flag-usa"></i></a> <a><i class="fa-solid fa-flag"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </header>
+  <div id="header-bottom" class="header-bottom sticky-top ">
+    <div class="container">
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">BRAND</a>
+        <button class="bi navbar-toggler  mobile-nav-toggle bi-list" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul id="navbar-nav" class="nav">
+            <li class="nav-item">
+              <a class="nav-link active-link" href="#about">صفحه‌اصلی</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#about">محصولات</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">گالری</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">مزیت‌ها</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">خدمات</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">نمونه‌ها</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">مستندات</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">تیم‌ما</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">سوالات متداول</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">مستریان‌م‍ا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">تماس باما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">درباره‌ی‌ما</a>
+            </li>
+          </ul>
+        </div>
+
+
+      </nav>
+    </div>
+  </div>
+  <!-- ==slider -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!-- Slide 1 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">
+            فروشگاه آریلند درخدمت شماست1
+          </h2>
+          <p class="animate__animated fanimate__adeInUp">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+          </p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">
+            فروشگاه آریلند درخدمت شماست2
+          </h2>
+          <p class="animate__animated animate__fadeInUp">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+          </p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">
+            فروشگاه آریلند درخدمت شماست3
+          </h2>
+          <p class="animate__animated animate__fadeInUp">
+
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+          </p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+
+        </div>
+      </div>
+
+      <!-- <a
+          class="carousel-control-prev"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon fa fa-chevron-left"
+            aria-hidden="true"
+          ></span>
+        </a>
+
+        <a
+          class="carousel-control-next"
+          href="#heroCarousel"
+          role="button"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon fa fa-chevron-right"
+            aria-hidden="true"
+          ></span>
+        </a> -->
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgb(246, 221, 0,.3)"></use>
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)"></use>
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff"></use>
+      </g>
+    </svg>
+  </section>
+  <main>
+    <!-- start about us section-->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+          <h2>درباره‌ی‌ما</h2>
+          <p>فروشگاه آریلند</p>
+        </div>
+
+        <div class="row content aos-init aos-animate" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+              بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+              با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه
+              و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و
+              فرهنگ پیشرو در زبان فارسی ایجاد کرد در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها
+              و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل
+              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+            <!-- <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat
+                </li>
+              </ul> -->
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <div class="frame">
+              <div class="frame-content">
+                <img src="assets/img/imge co workers_files/about.jpg" alt="">
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about us section-->
+    <!-- start company introduction section-->
+    <section id="company-introduction" class="company-introduction">
+
+      <div class="container">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+          <h2>معرفی شرکت</h2>
+          <p>فروشگاه آریلند</p>
+        </div>
+
+        <div class="video">
+          <div class="frame">
+            <div class="frame-content">
+              <video autoplay="autoplay" controls>
+                <source src="assets/img/imge co workers_files/coverr-pipe-fittings-company-building-8317-1080p.mp4"
+                  type="video/mp4">
+              </video>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      </div>
+
+    </section>
+    <!-- end company introduction section-->
+    <!-- start counter -->
+    <section id="counter" class="counter">
+      <div class="container">
+        <!-- <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+            <h2>شمارنده/h2>
+            <p>آمار شرکت</p>
+          </div> -->
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="counter-element yellow-gray">
+              <span class="counter-value">1894</span>
+              <h3>Web Designing</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="counter-element yellow-gray">
+              <span class="counter-value">1788</span>
+              <h3>Web Development</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="counter-element yellow-gray">
+              <span class="counter-value">1894</span>
+              <h3>Web Designing</h3>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="counter-element yellow-gray">
+              <span class="counter-value">1788</span>
+              <h3>Web Development</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- end counter -->
+    <!-- start benefits -->
+    <section id="benefits" class="benefits">
+      <div class="container">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+          <h2>مزیت ها</h2>
+          <p>آنچه اریلند را متمایز میکند</p>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> خلاق</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> متنوع</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> متنوع</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> خلاق</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> خلاق</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> متنوع</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> متنوع</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="benefit-card">
+              <div class="benefit-card-circle">
+                <span>
+                  <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="yellow" width="800px" height="800px" viewBox="0 0 20 20"><path d="M16.8 3.2C15 1.3 12.7.4 10 .4s-4.9.9-6.8 2.8C1.3 5.1.4 7.4.4 10c0 2.6.9 4.9 2.8 6.8 1.9 1.9 4.1 2.8 6.8 2.8 2.6 0 4.9-1 6.9-2.9 1.8-1.8 2.7-4.1 2.7-6.7 0-2.7-.9-5-2.8-6.8zm-1.2 12.3c-1.6 1.6-3.5 2.4-5.6 2.4-2.1 0-4-.8-5.6-2.3C2.9 14 2.1 12.1 2.1 10c0-2.1.8-4 2.4-5.6C6 2.9 7.8 2.1 10 2.1s4 .8 5.6 2.3c1.5 1.5 2.3 3.4 2.3 5.6 0 2.2-.8 4-2.3 5.5zm.7-5.3l-1.9-.8V7L8.5 4.6 5.9 5.7v2.7l-2.3 1v2.5L6.1 13l2.5-1h.1l5 2.1h.2l2.3-1 .2-.1v-2.7l-.1-.1zm-2.7 3.1l-4.4-1.8V9.8l4.4 1.8V13.3zm.2-2.2l-1.4-.6 1.6-.6 1.4.6-1.6.6zm2.1 1.5l-1.7.7v-1.7l1.7-.7v1.7z"/></svg> -->
+                </span>
+                <h3> خلاق</h3>
+              </div>
+
+              <p class="benefit-desc">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end benefits -->
+    <!-- start features -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+          <h2>,ویژگی‌های ‌ما</h2>
+          <p>فروشگاه آریلند</p>
+        </div>
+
+        <div class="row content aos-init aos-animate" data-aos="fade-up">
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <div class="frame">
+              <div class="frame-content">
+                <img src="assets/img/imge co workers_files/about.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون
+              بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
+              با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه
+              و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و
+              فرهنگ پیشرو در زبان فارسی ایجاد کرد در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها
+              و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل
+              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </p>
+            <!-- <ul>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
+                  reprehenderit in voluptate velit
+                </li>
+                <li>
+                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat
+                </li>
+              </ul> -->
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- end features -->
+    <!-- start services -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+          <h2>خدمات ‌ما</h2>
+          <div class="row">
+            <h3>ایک خرید اینترنتی مطمئن، نیازمند فروشگاهی است که بتواند کالاهایی متنوع، باکیفیت و دارای قیمت مناسب را در
+              مدت زمانی کوتاه به دست مشتریان خود برساند و ضمانت بازگشت کالا هم داشته باشد</h3>
+          </div>
+
+        </div>
+
+        <div class="row content aos-init aos-animate" data-aos="fade-up">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="service-box benefit-card ">
+              <div class="service-icon mb-3">
+                <i class="fa fa-cloud icon-lg icon-cyan icon-bg-cyan icon-bg-circle mb-3 fa-2xl"></i>
+              </div>
+              <div class="service-content">
+                <h3 class="mb-3">سرویس۱</h3>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="service-box benefit-card ">
+              <div class="service-icon mb-3">
+                <i class="fa fa-desktop icon-lg icon-purple icon-bg-purple icon-bg-circle mb-3 fa-2xl"></i>
+              </div>
+              <div class="service-content">
+                <h3 class="mb-3">سرویس۲</h3>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="service-box  benefit-card ">
+              <div class="service-icon mb-3">
+                <i class="fa fa-object-ungroup icon-lg icon-primary icon-bg-primary icon-bg-circle mb-3 fa-2xl"></i>
+              </div>
+              <div class="service-content">
+                <h3 class="mb-3">سرویس۳</h3>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="service-box benefit-card ">
+              <div class="service-icon mb-3">
+                <i class="fa fa-users icon-lg icon-yellow icon-bg-yellow icon-bg-circle mb-3 fa-2xl"></i>
+              </div>
+              <div class="service-content">
+                <h3 class="mb-3">سرویس۴</h3>
+                <p>
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end services -->
+    <!-- start customers Review -->
+    <!-- end customers Review -->
+    <!-- start sample -->
+    <section id="sample" class="sample">
+      <div class="container">
+        <div class="section-title aos-init aos-animate" data-aos="zoom-out">
+          <h2>نمونه محصولات</h2>
+        </div>
+        <div class="row content aos-init aos-animate" data-aos="fade-up">
+          <div class="col-md-3 col-sm-6">
+            <div class="product-grid">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="pic-1" src="assets/img/images.jpg">
+                </a>
+                <ul class="product-links">
+                  <li><a href="#" data-tip="Add to Wishlist"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                  <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-bag"></i></a></li>
+                </ul>
+                <div class="price">200000T</div>
+              </div>
+              <div class="product-content">
+                <h3 class="title"><a href="#">سینک سنگی</a></h3>
+                <ul class="rating">
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star disable"></li>
+                  <li class="fas fa-star disable"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-grid new">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="pic-1" src="assets/img/images.jpg">
+                </a>
+                <span class="product-new-label">جدید</span>
+                <ul class="product-links">
+                  <li><a href="#" data-tip="Add to Wishlist"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                  <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-bag"></i></a></li>
+                </ul>
+                <div class="price">15000000T</div>
+              </div>
+              <div class="product-content">
+                <h3 class="title"><a href="#">سینک سنگی</a></h3>
+                <ul class="rating">
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star disable"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+
+            <div class="product-grid">
+
+              <div class="product-image">
+
+                <a href="#" class="image">
+
+                  <img class="pic-1" src="assets/img/images.jpg">
+                </a>
+                <ul class="product-links">
+                  <li><a href="#" data-tip="Add to Wishlist"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                  <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-bag"></i></a></li>
+                </ul>
+                <div class="price">200000T</div>
+              </div>
+              <div class="product-content">
+                <h3 class="title"><a href="#">سینک سنگی</a></h3>
+                <ul class="rating">
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star disable"></li>
+                  <li class="fas fa-star disable"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="product-grid new">
+              <div class="product-image">
+                <a href="#" class="image">
+                  <img class="pic-1" src="assets/img/images.jpg">
+                </a>
+                <span class="product-new-label">جدید</span>
+                <ul class="product-links">
+                  <li><a href="#" data-tip="Add to Wishlist"><i class="fas fa-heart"></i></a></li>
+                  <li><a href="#" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
+                  <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-bag"></i></a></li>
+                </ul>
+                <div class="price">15000000T</div>
+              </div>
+              <div class="product-content">
+                <h3 class="title"><a href="#">سینک سنگی</a></h3>
+                <ul class="rating">
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star"></li>
+                  <li class="fas fa-star disable"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- end sample -->
+    <!-- start best sellers -->
+    <!-- end best sellers -->
+    <!-- start colleagues -->
+    <!-- end colleagues -->
+    <!-- start Frequently Asked Questions -->
+    <!-- end Frequently Asked Questions -->
+    <!-- start customers -->
+    <!-- end customers -->
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <h3>آریلند</h3>
+      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.
+      </p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="fa-brands fa-skype"></i></a>
+        <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>ariana</span></strong>. All Rights Reserved
+      </div>
+    </footer><!-- End Footer -->
+  </main>
+  <!-- script -->
+
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

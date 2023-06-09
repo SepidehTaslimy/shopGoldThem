@@ -1,0 +1,137 @@
+$c-white:#fff;
+$c-black:#000;
+$c-primary: rgb(180, 139, 34);
+$c-secondary: #bbb;
+$c-light-back :#fafdf6f5;
+$c-dark-back: #323548;
+$c-active-link:$c-white;
+$c-passive-link:rgba(255, 255, 255, 0.7);
+$C-gold-gradi: linear-gradient(180deg, rgb(246, 221, 0) 0%, rgb(180, 139, 34) 80%);
+$C-gold-gradi-glass: linear-gradient(180deg, rgb(246, 221, 0) 0%, rgb(180, 139, 34) 50%);
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+/*@font-face {
+  //todo for farsi
+}*/
+
+/*--------------------------------------------------------------
+# body
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+  height: 4400px;
+
+  a {
+    color: $C-gold-gradi;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $C-gold-gradi;
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+  section {
+    direction: rtl;
+    padding: 2rem 0;
+    overflow: hidden;
+
+    .section-title {
+      padding: 1rem 0;
+
+      h2 {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0;
+        line-height: 1px;
+        margin: 0 0 5px 0;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #aaaaaa;
+        font-family: "Poppins", sans-serif;
+
+        &::after {
+          content: "";
+          width: 120px;
+          height: 2px;
+          display: inline-block;
+          background: $C-gold-gradi;
+          margin: 4px 10px;
+        }
+      }
+
+      p {
+        margin: 0;
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #2a2c39;
+        padding: 50px;
+      }
+    }
+
+    .content {
+      padding: 1rem 0;
+    }
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# section
+--------------------------------------------------------------*/
+
+.fa-home {
+  background-color: $C-gold-gradi;
+}
+
+nav {
+  direction: rtl;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  direction: rtl;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.sticky-on-scroll {
+  position: sticky;
+}
+
+/*--------------------------------------------------------------
+  # mobile partial -bases-scss
+  --------------------------------------------------------------*/
+@media (max-width: 768px) {
+  .frame {
+    height: 30vh !important;
+  }
+}
